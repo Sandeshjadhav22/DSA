@@ -17,8 +17,8 @@ int search(vector<int> &nums, int target){
 
     // Recursive Code
 
-  
-     int bs(vector<int>&nums, low, high, target){
+      
+    int bs(vector<int>&nums, low, high, target){
         if(low > high) return -1;
         int mid = (low + high)/2;
         if(target == nums[mid]) return mid;
